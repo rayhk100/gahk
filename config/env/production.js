@@ -148,9 +148,10 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     cors: {
-      // allowOrigins: [
-      //   'https://example.com',
-      // ]
+      allowOrigins: [
+        'https://gahk.herokuapp.com',
+        'http://www.gahk.org.hk',
+      ]
     },
 
   },
@@ -250,10 +251,10 @@ module.exports = {
     * > Be sure to use the right protocol!  ("http://" vs. "https://")         *
     *                                                                          *
     ***************************************************************************/
-    // onlyAllowOrigins: [
-    //   'https://example.com',
-    //   'https://staging.example.com',
-    // ],
+    onlyAllowOrigins: [
+      'https://gahk.herokuapp.com',
+      'http://www.gahk.org.hk',
+    ],
 
 
     /***************************************************************************
